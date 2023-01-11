@@ -11,6 +11,7 @@
 <body>
 
     <h1>Home</h1>
+    <h2>{{$welcomeM}}</h2>
 
     <nav>
         <ul>

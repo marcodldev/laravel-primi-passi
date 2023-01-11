@@ -14,7 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+
+    $welcomeM = "Questo messaggio di benvenuto è una variabile inserita tramite funzione 'compact'! ";
+
+    return view('home', compact('welcomeM'));
 });
 
 Route::get('/chisiamo', function () {
